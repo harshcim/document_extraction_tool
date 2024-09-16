@@ -18,7 +18,7 @@ def load_embedding_data(vector_store_dir):
 
 # Create the LLM pipeline
 def create_pipeline():
-    model = ChatGoogleGenerativeAI(model="gemini-1.5-flash-latest", temperature=0.5, max_output_tokens=4096)
+    model = ChatGoogleGenerativeAI(model="gemini-1.5-flash-latest", temperature=0.3, max_output_tokens=4096)
     return model
 
 # Extract required documents based on the context
